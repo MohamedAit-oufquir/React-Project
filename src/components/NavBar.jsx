@@ -1,28 +1,19 @@
 import { Link } from "react-router-dom";
-import "../css/Navabar.css"
-
+import "../css/Navbar.css"
 
 function NavBar() {
     return <nav className="navbar">
         <div className="navbar-brand">
-            <link to="/">Movie App</link>
-
-
-
+            <Link to="/">Movie App</Link>
         </div>
-
-        <div className="navbar-link">
+        <div className="navbar-links">
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/favorites" className="nav-link">Favorites</Link>
         </div>
-
     </nav>
 }
 
-
 export default NavBar
-
-
 
 
 
