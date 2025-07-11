@@ -13,6 +13,9 @@ function Home() {
     const loadPopularMovies = async () => {
       try {
         const popularMovies = await getPopularMovies();
+        console.log(popularMovies) // undefined
+        // check if there are no movie data (fetch failed)
+        if (!popularMovies) throw new Error('request failed')
         setMovies(popularMovies);
       } catch (err) {
         console.log(err);
