@@ -1,8 +1,8 @@
-// const API_KEY = "127f26132amsh66bdc73d8656696p113da5jsnd9f3d55ce";
-// const BASE_URL = "https://www.imdb.com/title/tt21377368/";
+const API_KEY = "127f26132amsh66bdc73d8656696p113da5jsnd9f3d55ce";
+const BASE_URL = "https://www.imdb.com/title/tt21377368/";
 
-const API_KEY = "5aa9fd6d";
-const BASE_URL = "http://www.omdbapi.com/?s=movie&apikey=5aa9fd6d";
+// const API_KEY = "2d2d70a096mshafe3bfdaa876966p15c80ajsn64a67a972e19";
+// const BASE_URL = "http://www.omdbapi.com/?s=movie&apikey=5aa9fd6d";
 
 
 
